@@ -10,7 +10,7 @@ Calendario de efemérides del sector salud (Global y Venezuela) con la identidad
 | Archivo | Qué es |
 |---|---|
 | `index.html` | El calendario completo (vistas Mes / Semana / Lista, filtros, búsqueda, suscripción). Página estática, sin build. |
-| `ata-logo.webp` | Logo de ATA para la web. |
+| `ata-logo.webp` / `ata-logo.png` | Logo de ATA (webp para la web, png para los correos). |
 | `vercel.json` | Cabeceras de caché y permiso para incrustarse en iframe. |
 | `embed-wordpress.html` | Código para pegar en un widget HTML de Elementor en ataconsultores.com. |
 | `AgendaSaludATA.gs` | Script de Google Sheets: correos semanal y mensual, Google Calendar suscribible y API JSON para la web. |
@@ -21,10 +21,13 @@ Calendario de efemérides del sector salud (Global y Venezuela) con la identidad
 Al inicio del `<script>` de `index.html`:
 
 ```js
-var CONFIG = { API_URL: "__API_URL__", CALENDARIO_ID: "__CAL_ID__" };
+var CONFIG = {
+  API_URL: "https://script.google.com/macros/s/AKfycbwgFwuT3UWt2mYw9XbEIHCujuEb1q4avd-5e6tZMkKUT7vr6tBFSsQW_ZHjqhUB9xFS/exec",
+  CALENDARIO_ID: "c_4b81c60910c6e9cbb473b71d9c72468f8397a0cb14332daabf45909c262333f5@group.calendar.google.com"
+};
 ```
 
-- `API_URL`: URL `/exec` de la aplicación web de Apps Script. Con ella la web lee la hoja en vivo. Si queda como está, usa los datos incluidos en el archivo.
+- `API_URL`: aplicación web de Apps Script (cuenta karla.oviedo@ataconsultores.com, hoja "Agenda de Salud ATA – Efemérides"). La web lee la hoja en vivo; si la API falla, usa los datos incluidos en el archivo.
 - `CALENDARIO_ID`: ID del Google Calendar público (termina en `@group.calendar.google.com`). Activa el botón "Suscribirme al calendario".
 
 ## Reglas de fechas móviles (columna "Regla" de la hoja)
@@ -39,4 +42,4 @@ var CONFIG = { API_URL: "__API_URL__", CALENDARIO_ID: "__CAL_ID__" };
 
 ## Despliegue
 
-Vercel (proyecto `agenda-de-salud-ata`, cuenta personal). Si se conecta este repositorio al proyecto, cada push a `main` publica la nueva versión.
+Vercel (proyecto `agenda-de-salud-ata`, cuenta personal). El repositorio está conectado al proyecto: cada commit a `main` publica la nueva versión.
