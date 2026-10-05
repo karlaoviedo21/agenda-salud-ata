@@ -1,0 +1,143 @@
+Mes,Día,Día fin,Regla,Tipo,Efeméride,Ámbito,Categoría,Destacada,Origen,Nota,Idea de contenido,Responsable,Estado
+1,1,,,dia,Año Nuevo,Global,Interés general,No,Lista ATA,,,,Pendiente
+1,4,,,dia,Día Mundial del Braille,Global,Salud pública,No,Lista ATA,,,,Pendiente
+1,5,,,dia,Día de la Industria Farmacéutica,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+1,6,,,dia,Día de Reyes,Global,Interés general,No,Lista ATA,,,,Pendiente
+1,13,,,dia,Día Mundial de la Lucha contra la Depresión,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+1,20,,,dia,Día del Pediatra,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+1,27,,,dia,Día del Nutriólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+1,30,,,dia,Día Mundial de las Enfermedades Tropicales Desatendidas,Global,Infecciosas y vacunas,No,Nueva,Reconocido por la OMS.,,,Pendiente
+1,,,DOM#U,dia,Día Mundial contra la Lepra,Global,Infecciosas y vacunas,No,Lista ATA,"Corregido: es el último domingo de enero (fecha móvil), no siempre el 26.",,,Pendiente
+2,4,,,dia,Día Mundial contra el Cáncer,Global,Oncología,Sí,Lista ATA,,,,Pendiente
+2,,,LUN#2,dia,Día Internacional de la Epilepsia,Global,Neurología y salud mental,No,Lista ATA,Fecha móvil: 2.º lunes de febrero.,,,Pendiente
+2,14,,,dia,Día Mundial de las Cardiopatías Congénitas,Global,Cardiovascular,No,Lista ATA,,,,Pendiente
+2,15,,,dia,Día Internacional del Cáncer Infantil,Global,Oncología,No,Lista ATA,,,,Pendiente
+2,18,,,dia,Día Internacional del Síndrome de Asperger,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+2,22,,,dia,Día Mundial de la Encefalitis,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+2,,,ULTDIA,dia,Día Mundial de las Enfermedades Raras,Global,Otras especialidades,No,Lista ATA,Corregido: último día de febrero (29 en años bisiestos).,,,Pendiente
+3,3,,,dia,Día Mundial de la Audición,Global,Otras especialidades,No,Nueva,Reconocido por la OMS.,,,Pendiente
+3,4,,,dia,Día Mundial de la Obesidad,Global,Metabolismo y nutrición,Sí,Lista ATA,,,,Pendiente
+3,8,,,dia,Día Internacional de la Mujer,Global,Interés general,No,Lista ATA,,,,Pendiente
+3,10,,,dia,Día del Médico Venezolano,Venezuela,Profesionales de la salud,Sí,Lista ATA,Natalicio del Dr. José María Vargas.,,,Pendiente
+3,,,JUE#2,dia,Día Mundial del Riñón,Global,Otras especialidades,Sí,Lista ATA,"Corregido: 2.º jueves de marzo (fecha móvil), no siempre el 13.",,,Pendiente
+3,12,,,dia,Día Mundial del Glaucoma,Global,Otras especialidades,No,Nueva,,,,Pendiente
+3,18,,,dia,Día Mundial de las Enfermedades Reumáticas Infantiles y Juveniles,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+3,19,,VIE#U,dia,Día Mundial del Sueño,Global,Neurología y salud mental,No,Lista ATA,"Corregido: viernes previo al equinoccio de marzo (fecha móvil), no siempre el 15.",,,Pendiente
+3,20,,,dia,Día Mundial de la Salud Bucodental,Global,Otras especialidades,No,Nueva,,,,Pendiente
+3,21,,,dia,Día Mundial del Síndrome de Down,Global,Mujer e infancia,No,Lista ATA,,,,Pendiente
+3,24,,,dia,Día Mundial contra la Tuberculosis,Global,Infecciosas y vacunas,No,Lista ATA,,,,Pendiente
+3,26,,,dia,Día Mundial de Prevención del Cáncer de Cuello Uterino,Global,Oncología,No,Nueva,,,,Pendiente
+3,31,,,dia,Día Mundial contra el Cáncer de Colon,Global,Oncología,No,Lista ATA,,,,Pendiente
+3,31,,,dia,Primera Semana Sanitaria dedicada al cáncer,Venezuela,Oncología,No,Lista ATA,,,,Pendiente
+4,2,,,dia,Día Mundial de Concienciación sobre el Autismo,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+4,7,,,dia,Día Mundial de la Salud,Global,Salud pública,Sí,Lista ATA,,,,Pendiente
+4,11,,,dia,Día Mundial del Parkinson,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+4,13,,,dia,Día Mundial del Scrabble,Global,Interés general,No,Lista ATA,Interés general (no es de salud).,,,Pendiente
+4,17,,,dia,Día Mundial de la Hemofilia,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+4,18,,,dia,Día del Médico Internista,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+4,24,30,,semana,Semana Mundial de la Inmunización,Global,Infecciosas y vacunas,No,Nueva,"Campaña de la OMS, última semana de abril.",,,Pendiente
+4,25,,,dia,Día Mundial del Paludismo,Global,Infecciosas y vacunas,No,Lista ATA,,,,Pendiente
+4,25,,,dia,Día del Bioanalista,Venezuela,Profesionales de la salud,No,Nueva,"Natalicio de Rafael Rangel, precursor de la microbiología en Venezuela.",,,Pendiente
+4,28,,,dia,Día Mundial de la Seguridad y la Salud en el Trabajo,Global,Salud pública,No,Lista ATA,,,,Pendiente
+5,1,,,dia,Día del Trabajador,Global,Interés general,No,Lista ATA,,,,Pendiente
+5,,,MAR#1,dia,Día Mundial del Asma,Global,Otras especialidades,No,Lista ATA,"Corregido: 1.er martes de mayo (fecha móvil), no siempre el 6.",,,Pendiente
+5,5,,,dia,Día Mundial de la Higiene de Manos,Global,Salud pública,No,Lista ATA,,,,Pendiente
+5,8,,,dia,Día Mundial de la Cruz Roja,Global,Salud pública,No,Lista ATA,,,,Pendiente
+5,8,,,dia,Día Mundial del Cáncer de Ovario,Global,Oncología,No,Nueva,,,,Pendiente
+5,9,,,dia,Día del Cirujano Cardiovascular,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+5,,,DOM#2,dia,Día de la Madre,Venezuela,Interés general,No,Lista ATA,2.º domingo de mayo en Venezuela (en México es el 10 de mayo).,,,Pendiente
+5,10,,,dia,Día Mundial del Lupus,Global,Otras especialidades,No,Nueva,,,,Pendiente
+5,12,,,dia,Día Internacional de la Enfermería,Global,Profesionales de la salud,Sí,Lista ATA,,,,Pendiente
+5,12,,,dia,Día Mundial de la Fibromialgia,Global,Otras especialidades,No,Nueva,,,,Pendiente
+5,17,,,dia,Día Mundial de la Hipertensión,Global,Cardiovascular,Sí,Lista ATA,,,,Pendiente
+5,19,,,dia,Día Mundial del Médico de Familia,Global,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+5,19,,,dia,Día Mundial de la Enfermedad Inflamatoria Intestinal,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+5,19,,,dia,Día Mundial de la Donación de Leche Humana,Global,Mujer e infancia,No,Lista ATA,,,,Pendiente
+5,24,,,dia,Día Nacional de la Epilepsia,Venezuela,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+5,25,,,dia,Día Mundial de la Tiroides,Global,Metabolismo y nutrición,No,Nueva,,,,Pendiente
+5,28,,,dia,Día Internacional de Acción por la Salud de las Mujeres,Global,Mujer e infancia,No,Lista ATA,,,,Pendiente
+5,29,,,dia,Día Mundial de la Salud Digestiva,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+5,29,,,dia,Aniversario de la Sociedad Venezolana de Cardiología,Venezuela,Cardiovascular,No,Lista ATA,,,,Pendiente
+5,30,,,dia,Día Mundial de la Esclerosis Múltiple,Global,Neurología y salud mental,No,Nueva,,,,Pendiente
+5,31,,,dia,Día Mundial sin Tabaco,Global,Salud pública,Sí,Lista ATA,,,,Pendiente
+6,6,,,dia,Día Mundial de los Pacientes Trasplantados,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+6,11,,,dia,Día Mundial del Cáncer de Próstata,Global,Oncología,No,Lista ATA,,,,Pendiente
+6,14,,,dia,Día Mundial del Donante de Sangre,Global,Salud pública,No,Lista ATA,,,,Pendiente
+6,19,,,dia,Día Mundial del Cáncer de Riñón,Global,Oncología,No,Lista ATA,,,,Pendiente
+6,,,DOM#3,dia,Día del Padre,Venezuela,Interés general,No,Lista ATA,3.er domingo de junio.,,,Pendiente
+6,20,,,dia,Día Internacional del Yoga,Global,Interés general,No,Lista ATA,,,,Pendiente
+6,26,,,dia,Día Internacional contra el Uso Indebido y el Tráfico de Drogas,Global,Salud pública,No,Nueva,,,,Pendiente
+7,3,,,dia,Día Internacional del Síndrome de Rubinstein-Taybi,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+7,6,,,dia,Día Mundial de las Zoonosis,Global,Infecciosas y vacunas,No,Lista ATA,,,,Pendiente
+7,10,,,dia,Día del Endocrinólogo Venezolano,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+7,12,,,dia,Día Nacional de la Medicina Social,Venezuela,Salud pública,No,Lista ATA,,,,Pendiente
+7,13,,,dia,Día del Gastroenterólogo Venezolano,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+7,14,,,dia,Día Nacional de la Alergología e Inmunología,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+7,22,,,dia,Día Mundial del Cerebro,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+7,23,,,dia,Día Nacional del Traumatólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+7,24,,,dia,Día Internacional del Autocuidado,Global,Salud pública,No,Lista ATA,,,,Pendiente
+7,25,,,dia,Día del Urólogo Venezolano,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+7,27,,,dia,Día Mundial del Cáncer de Cabeza y Cuello,Global,Oncología,No,Lista ATA,,,,Pendiente
+7,28,,,dia,Día Mundial contra la Hepatitis,Global,Infecciosas y vacunas,No,Lista ATA,,,,Pendiente
+7,30,,,dia,Día Internacional de la Amistad,Global,Interés general,No,Lista ATA,,,,Pendiente
+8,1,7,,semana,Semana Mundial de la Lactancia Materna,Global,Mujer e infancia,No,Lista ATA,,,,Pendiente
+8,1,,,dia,Día del Neumonólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+8,10,,,dia,Día Nacional del Cardiólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+8,11,,,dia,Día Internacional del Nutricionista,Global,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+8,12,,,dia,Día del Gineco-obstetra,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+8,19,,,dia,Día Mundial de la Asistencia Humanitaria,Global,Salud pública,No,Lista ATA,,,,Pendiente
+9,3,,,dia,Día Mundial de la Higiene,Global,Salud pública,No,Lista ATA,,,,Pendiente
+9,4,,,dia,Día Mundial de la Salud Sexual,Global,Mujer e infancia,No,Nueva,,,,Pendiente
+9,8,,,dia,Día Mundial de la Fisioterapia,Global,Profesionales de la salud,No,Nueva,,,,Pendiente
+9,10,,,dia,Día Mundial para la Prevención del Suicidio,Global,Neurología y salud mental,No,Nueva,Tratar con guía de comunicación responsable.,,,Pendiente
+9,15,,,dia,Día Mundial del Linfoma,Global,Oncología,No,Nueva,,,,Pendiente
+9,16,,,dia,Día Internacional de la Cardiología Intervencionista,Global,Cardiovascular,No,Lista ATA,,,,Pendiente
+9,17,,,dia,Día del Psiquiatra Venezolano,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+9,17,,,dia,Día Mundial de la Seguridad del Paciente,Global,Salud pública,No,Nueva,Reconocido por la OMS.,,,Pendiente
+9,21,,,dia,Día Mundial del Alzheimer,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+9,24,29,,semana,Semana del Corazón,Global,Cardiovascular,No,Lista ATA,,,,Pendiente
+9,25,,,dia,Día Mundial del Farmacéutico,Global,Profesionales de la salud,Sí,Lista ATA,,,,Pendiente
+9,26,,,dia,Día Mundial de la Anticoncepción,Global,Mujer e infancia,No,Nueva,,,,Pendiente
+9,28,,,dia,Día Mundial contra la Rabia,Global,Infecciosas y vacunas,No,Nueva,,,,Pendiente
+9,29,,,dia,Día del Médico Oncólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+9,29,,,dia,Día Mundial del Corazón,Global,Cardiovascular,Sí,Lista ATA,,,,Pendiente
+10,1,31,,mes,Octubre Rosa: concienciación sobre el cáncer de mama,Global,Oncología,Sí,Lista ATA,,,,Pendiente
+10,1,,,dia,Día Internacional de las Personas de Edad,Global,Salud pública,No,Nueva,,,,Pendiente
+10,3,,,dia,Día del Odontólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+10,5,,,dia,Día Mundial contra la Meningitis,Global,Infecciosas y vacunas,No,Lista ATA,Corregido: desde 2022 se celebra el 5 de octubre (antes era el 24 de abril).,,,Pendiente
+10,10,,,dia,Día Mundial de la Salud Mental,Global,Neurología y salud mental,Sí,Lista ATA,,,,Pendiente
+10,12,,,dia,Día Mundial de la Artritis Reumatoide,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+10,13,,,dia,Día Mundial de la Trombosis,Global,Cardiovascular,No,Lista ATA,,,,Pendiente
+10,13,,,dia,Día del Psicólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+10,,,JUE#2,dia,Día Mundial de la Visión,Global,Otras especialidades,No,Nueva,Fecha móvil: 2.º jueves de octubre.,,,Pendiente
+10,14,,,dia,"Día Mundial de la Donación de Órganos, Tejidos y Trasplantes",Global,Salud pública,No,Lista ATA,,,,Pendiente
+10,15,,,dia,Día Mundial del Lavado de Manos,Global,Salud pública,No,Nueva,,,,Pendiente
+10,16,,,dia,Día Mundial de la Alimentación,Global,Metabolismo y nutrición,Sí,Lista ATA,,,,Pendiente
+10,17,,,dia,Día Mundial contra el Dolor,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+10,18,,,dia,Día Mundial de la Menopausia,Global,Mujer e infancia,No,Lista ATA,,,,Pendiente
+10,19,,,dia,Día Mundial contra el Cáncer de Mama,Global,Oncología,Sí,Lista ATA,,,,Pendiente
+10,20,,,dia,Día Mundial de la Osteoporosis,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+10,21,,,dia,Día del Neurólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+10,24,,,dia,Día Mundial contra la Poliomielitis,Global,Infecciosas y vacunas,No,Lista ATA,,,,Pendiente
+10,26,,,dia,"Día de San José Gregorio Hernández, el médico de los pobres",Venezuela,Profesionales de la salud,Sí,Nueva,Natalicio y memoria litúrgica; canonizado el 19 de octubre de 2025.,,,Pendiente
+10,29,,,dia,Día Mundial del Ictus,Global,Neurología y salud mental,No,Lista ATA,,,,Pendiente
+10,29,,,dia,Día Mundial de la Psoriasis,Global,Otras especialidades,No,Lista ATA,,,,Pendiente
+10,30,,,dia,Día del Otorrinolaringólogo,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+11,1,30,,mes,Noviembre Azul: salud masculina y cáncer de próstata,Global,Oncología,Sí,Lista ATA,,,,Pendiente
+11,2,,,dia,Día Mundial de la Vitamina D,Global,Metabolismo y nutrición,No,Lista ATA,,,,Pendiente
+11,12,,,dia,Día Mundial contra la Neumonía,Global,Infecciosas y vacunas,No,Lista ATA,,,,Pendiente
+11,14,,,dia,Día Mundial de la Diabetes,Global,Metabolismo y nutrición,Sí,Lista ATA,,,,Pendiente
+11,17,,,dia,Día Mundial del Prematuro,Global,Mujer e infancia,No,Lista ATA,,,,Pendiente
+11,17,,,dia,Día Internacional contra el Cáncer de Próstata,Global,Oncología,No,Lista ATA,,,,Pendiente
+11,17,,,dia,Día Mundial de la Lucha contra el Cáncer de Pulmón,Global,Oncología,No,Lista ATA,,,,Pendiente
+11,,,MIE#3,dia,Día Mundial de la EPOC,Global,Otras especialidades,No,Nueva,Fecha móvil: 3.er miércoles de noviembre.,,,Pendiente
+11,18,,,dia,Día del Visitador Médico,Venezuela,Profesionales de la salud,No,Lista ATA,,,,Pendiente
+11,18,,,dia,Día Europeo para el Uso Prudente de los Antibióticos,Global,Infecciosas y vacunas,No,Lista ATA,,,,Pendiente
+11,18,24,,semana,Semana Mundial de Concienciación sobre la Resistencia a los Antimicrobianos,Global,Infecciosas y vacunas,No,Nueva,Campaña de la OMS.,,,Pendiente
+11,19,,,dia,Día Mundial para la Prevención del Abuso Infantil,Global,Mujer e infancia,No,Lista ATA,,,,Pendiente
+12,1,,,dia,Día Mundial de la Lucha contra el SIDA,Global,Infecciosas y vacunas,Sí,Lista ATA,,,,Pendiente
+12,1,,,dia,Día del Farmacéutico en Venezuela y las Américas,Venezuela,Profesionales de la salud,Sí,Lista ATA,,,,Pendiente
+12,3,,,dia,Día Internacional de las Personas con Discapacidad,Global,Salud pública,No,Lista ATA,,,,Pendiente
+12,3,,,dia,Día Panamericano del Médico,Global,Profesionales de la salud,No,Lista ATA,Nombre ajustado: en la lista decía 'Día Internacional del Médico'.,,,Pendiente
+12,5,,,dia,Día Internacional del Voluntariado,Global,Salud pública,No,Lista ATA,,,,Pendiente
+12,12,,,dia,Día Internacional de la Cobertura Sanitaria Universal,Global,Salud pública,No,Lista ATA,Nombre oficial ONU (en la lista: 'Día de la Salud Universal').,,,Pendiente
