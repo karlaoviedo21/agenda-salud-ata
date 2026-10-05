@@ -502,7 +502,9 @@ body { background: var(--paper); color: var(--ink); }
       ultima = h;
       try { parent.postMessage({ ataAgendaAltura: h }, "*"); } catch (e) {}
     };
-    if (window.ResizeObserver) new ResizeObserver(enviarAltura).observe(raiz); else setInterval(enviarAltura, 800);
+    if (window.ResizeObserver) new ResizeObserver(enviarAltura).observe(raiz);
+    // Reenvía cada 2 s: algunos plugins de caché de WordPress cargan el script del sitio con retraso y pierden el primer aviso
+    setInterval(function () { ultima = 0; enviarAltura(); }, 2000);
     window.addEventListener("load", enviarAltura);
   }
   eventos(); pintarSuscripcion();
