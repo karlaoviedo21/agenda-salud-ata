@@ -1,21 +1,10 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Calendario de efemérides del sector salud: días mundiales, campañas y fechas gremiales en Venezuela y el mundo. ATA Consultores.">
-<meta property="og:title" content="Agenda de Salud · ATA Consultores">
-<style>body{margin:0}[hidden]{display:none!important}</style>
-</head>
-<body>
-<title>Agenda de Salud ATA</title>
+<!-- Agenda de Salud ATA · pegar en un bloque "HTML personalizado" (WordPress/Elementor) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
 <style>
 /* Layout: almanaque de consultora — barra de marca ATA, hoja arrancable con la próxima fecha, vistas Mes / Semana / Lista; en teléfono pasa a agenda */
-/*THEME-START*/
-:root {
+#ata-agenda {
   --paper: #F7F6F3;     /* neutro cálido, sesgado hacia el gris del logo */
   --surface: #FFFFFF;
   --ink: #2F2F2E;       /* carbón del logo */
@@ -32,20 +21,8 @@
   --font-body: "Montserrat", "Segoe UI", Arial, sans-serif;
   --font-data: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #171716; --surface: #20201F; --ink: #EDEBE6; --muted: #A5A39D; --line: #34332F;
-    --mostaza-soft: #3A2D16; --turquesa: #3CC3BA; --solid: #EDEBE6; --solid-fg: #171716; --logo-plate: #F7F6F3; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --paper: #171716; --surface: #20201F; --ink: #EDEBE6; --muted: #A5A39D; --line: #34332F;
-  --mostaza-soft: #3A2D16; --turquesa: #3CC3BA; --solid: #EDEBE6; --solid-fg: #171716; --logo-plate: #F7F6F3; color-scheme: dark;
-}
-body { background: var(--paper); color: var(--ink); }
-/*THEME-END*/
 
-#ata-agenda { font-family: var(--font-body); font-size: 15px; line-height: 1.45; color: var(--ink); max-width: 1140px; margin: 0 auto; padding-block: 22px 48px; padding-inline: 16px; box-sizing: border-box; }
+#ata-agenda { background: var(--paper); border-radius: 18px; font-family: var(--font-body); font-size: 15px; line-height: 1.45; color: var(--ink); max-width: 1140px; margin: 0 auto; padding-block: 22px 48px; padding-inline: 16px; box-sizing: border-box; }
 #ata-agenda *, #ata-agenda *::before, #ata-agenda *::after { box-sizing: border-box; }
 #ata-agenda [hidden] { display: none !important; }
 /* Blindaje contra estilos del tema (Elementor/WordPress fuerzan img{height:auto}) */
@@ -503,6 +480,3 @@ body { background: var(--paper); color: var(--ink); }
   if (ok(CONFIG.API_URL)) fetch(CONFIG.API_URL).then(function (r) { return r.json(); }).then(iniciar).catch(function () {});
 })();
 </script>
-
-</body>
-</html>
