@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Calendario de efemérides del sector salud: días mundiales, campañas y fechas gremiales en Venezuela y el mundo. ATA Consultores.">
 <meta property="og:title" content="Agenda de Salud · ATA Consultores">
-<style>body{margin:0}[hidden]{display:none!important}</style>
+<style>html,body{margin:0}[hidden]{display:none!important}</style>
 </head>
 <body>
 <title>Agenda de Salud ATA</title>
@@ -494,8 +494,15 @@ body { background: var(--paper); color: var(--ink); }
   // Modo incrustado (iframe en el sitio): ?embed=1 oculta la barra de marca y avisa la altura al sitio
   if (/[?&]embed=1/.test(location.search)) {
     document.documentElement.classList.add("aa-embed"); document.documentElement.setAttribute("data-theme", /[?&]tema=oscuro/.test(location.search) ? "dark" : "light");
-    var enviarAltura = function () { try { parent.postMessage({ ataAgendaAltura: document.documentElement.scrollHeight }, "*"); } catch (e) {} };
-    if (window.ResizeObserver) new ResizeObserver(enviarAltura).observe(document.body); else setInterval(enviarAltura, 800);
+    // Se mide el contenido (no la ventana) para evitar que el alto crezca en bucle
+    var raiz = document.getElementById("ata-agenda"), ultima = 0;
+    var enviarAltura = function () {
+      var h = Math.ceil(raiz.getBoundingClientRect().height);
+      if (Math.abs(h - ultima) < 2) return;
+      ultima = h;
+      try { parent.postMessage({ ataAgendaAltura: h }, "*"); } catch (e) {}
+    };
+    if (window.ResizeObserver) new ResizeObserver(enviarAltura).observe(raiz); else setInterval(enviarAltura, 800);
     window.addEventListener("load", enviarAltura);
   }
   eventos(); pintarSuscripcion();

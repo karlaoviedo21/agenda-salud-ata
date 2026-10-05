@@ -1,9 +1,9 @@
-<!-- Agenda de Salud ATA · pegar en un widget "HTML" de Elementor o un bloque "HTML personalizado" -->
-<iframe id="ata-agenda-frame" src="https://agenda-de-salud-ata.vercel.app/?embed=1" title="Agenda de Salud ATA · Efemérides del sector salud" loading="lazy" style="width:100%;border:0;min-height:900px;display:block;color-scheme:light"></iframe>
+<!-- Agenda de Salud ATA · se carga desde agenda-de-salud-ata.vercel.app (los datos vienen de la hoja de Google) -->
+<iframe id="ata-agenda-frame" src="https://agenda-de-salud-ata.vercel.app/?embed=1" title="Agenda de Salud ATA · Efemérides del sector salud" scrolling="no" style="width:100%;border:0;height:1400px;display:block;overflow:hidden;color-scheme:light"></iframe>
 <script>
 window.addEventListener("message", function (e) {
   if (e.origin === "https://agenda-de-salud-ata.vercel.app" && e.data && e.data.ataAgendaAltura) {
-    document.getElementById("ata-agenda-frame").style.height = (e.data.ataAgendaAltura + 10) + "px";
+    document.getElementById("ata-agenda-frame").style.height = e.data.ataAgendaAltura + "px";
   }
 });
 </script>
